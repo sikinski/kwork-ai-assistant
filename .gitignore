@@ -1,0 +1,10 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+/generated/prisma
+
+# Локальная база с заказами и откликами — не для публикации
+prisma/*.db
+prisma/*.db-journal
+prisma/*.db.backup*
